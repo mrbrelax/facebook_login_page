@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Column(
                 children: [
                   SizedBox(height: 150.0),
-                  buildCard(),
+                  CardLogin(),
                   SizedBox(height: 25.0),
                   Row(
                     children: [
@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                   SizedBox(height: 40.0),
-                  buildCard(),
+                  CardLogin(),
                   SizedBox(height: 30.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         text: TextSpan(
                           children: <TextSpan>[
                             TextSpan(
-                              text: 'Create a page',
+                              text: 'Create a page ',
                               style: GoogleFonts.roboto(
                                 fontSize: 16.0,
                                 color: Colors.black,
@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ),
                       Text(
-                        ' for a celebrity, band or business.',
+                        ' \nfor a celebrity, band \nor business.',
                         style: GoogleFonts.roboto(
                           fontSize: 16.0,
                           color: Colors.black,
