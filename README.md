@@ -1,6 +1,6 @@
 # facebook_loginpage
 
-Login facebook page responsive with flutter 2.2.0 full null safety.
+Facebook login page responsive with flutter 2.2.0 full null safety.
 
 ## Screenshot
 
